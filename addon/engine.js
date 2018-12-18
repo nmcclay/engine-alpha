@@ -7,11 +7,7 @@ const { modulePrefix } = config;
 
 const Eng = Engine.extend({
   modulePrefix,
-  Resolver,
-  dependencies: Object.freeze({
-    services: [],
-    externalRoutes: []
-  })
+  Resolver
 });
 
 loadInitializers(Eng, modulePrefix);

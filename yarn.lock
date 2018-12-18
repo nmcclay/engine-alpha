@@ -719,9 +719,9 @@ acorn@^5.1.1, acorn@^5.5.0:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
   integrity sha512-T/zvzYRfbVojPWahDsE5evJdHb3oJoQfFbsrKM7w5Zcs++Tr257tia3BmMP8XYVjp1S9RZXQMh7gao96BlqZOw==
 
-"addon-test@git+ssh://git@github.com/nmcclay/addon-test.git#v1.2.0":
-  version "1.2.0"
-  resolved "git+ssh://git@github.com/nmcclay/addon-test.git#048ccc230f9979536908876816708a3582a7ca54"
+"addon-test@git+ssh://git@github.com/nmcclay/addon-test.git#v1.2.1":
+  version "1.2.1"
+  resolved "git+ssh://git@github.com/nmcclay/addon-test.git#73f678c67a5e7b457fbee3609f3b3dc3eff1bc7b"
   dependencies:
     ember-cli-babel "^7.1.2"
     ember-cli-htmlbars "^3.0.0"
@@ -3322,10 +3322,9 @@ ember-disable-prototype-extensions@^1.1.3:
   resolved "https://registry.yarnpkg.com/ember-disable-prototype-extensions/-/ember-disable-prototype-extensions-1.1.3.tgz#1969135217654b5e278f9fe2d9d4e49b5720329e"
   integrity sha1-GWkTUhdlS14nj5/i2dTkm1cgMp4=
 
-ember-engines@^0.5.24:
+"ember-engines@git+ssh://git@github.com/ember-engines/ember-engines.git":
   version "0.5.24"
-  resolved "https://registry.yarnpkg.com/ember-engines/-/ember-engines-0.5.24.tgz#5782fe630baaa665f9a7738d0a652fbae89ac4fb"
-  integrity sha512-P2+l3mxcXxzEPnyNA+vSHr7YonTZ3StKAneShsarkTlQbwzA8XIA+MVnZmv/3dch/epoM6bL7U3Pw28frsS+1g==
+  resolved "git+ssh://git@github.com/ember-engines/ember-engines.git#039501dd70962565c54bb34da2e96b1019ae50e7"
   dependencies:
     amd-name-resolver "1.2.0"
     babel-plugin-compact-reexports "^1.0.0"
